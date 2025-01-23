@@ -23,7 +23,7 @@ This analysis examines nearly 10,000 sales records from January 1, 2020, to Dece
 To capitalize on these findings, Adidas should prioritize investments in online platforms, such as websites and mobile apps, to better serve customers who cannot access brick-and-mortar stores. Additionally, focusing on high-performing categories like Men's Street Footwear while reevaluating underperforming products can drive sustainable growth and strengthen market presence in the post-pandemic era.
 
 
-![Adidas Sales ERD Diagram](Data/Visualizations/Sales ERD.png)
+![Adidas Sales ERD Diagram](Data/Visualizations/sales_erd.png)
 
 
 

@@ -43,7 +43,7 @@ Adidas Sale Dataset ERD
 ![Monthly Trend Metrics](Data/Visualizations/python_metric1.png)
 ![Monthly Growth Metrics By Year](Data/Visualizations/python_metric2.png)
 
-### Regional Classification
+## Regional Classification
 Each state was classified into a region, with there being 5 regions in total. Below is each region and which states are present:
  - **West**: Washington, Oregon, California, Alaska, Hawaii, Idaho, Montana, Nevada, Utah, Wyoming, Colorado
  - **Southwest**: Arizona, New Mexico, Oklahoma, Texas
@@ -51,10 +51,42 @@ Each state was classified into a region, with there being 5 regions in total. Be
  - **Northeast**: Maryland, Delaware, Pennsylvania, New Jersey, New York, Connecticut, Rhode Island, Massachusetts, Vermont, New Hampshire, Maine
  - **Southeast**: Virginia, West Virginia, Tennessee, Kentucky, Arkansas, Louisiana, Mississippi, Alabama, Florida, North Carolina, South Carolina, Georgia
 
-### Regional Trends
+## Regional Performance
  - The Southeast region slightly edged out the West region as best performing, accounting for 29% of total revenue. West accounted for 28% of the total revenue.
  - Understandibly, the Southwest region was the least performing region, due to only having four states present. With such a small area, this region can be zeroed in on to allocate targeted marketing strategies towards areas of more dense populations, such as Texas and Arizona.
  - The Southeast region is the only one to cross the $1M profit threshold from 2020-2021. Florida is a key state in this region as the most populated, which can help drive sales if consumer engagement is high.
+
+![Regional Trends](Data/Visualizations/regional_trends.png)
+
+## Product Effectiveness Metrics
+ - Men's Street Footwear is the most popular product category in 2020 and 2021, accounting for around $208M(23% of total revenue) of the total revenue generated. Women's Apparel is second with $179M(about 20% of total revenue) of the total revenue generated.
+ - Men's products generated $486M(54% of total revenue), compared to $413M(46% of total revenue) from Women's products.
+ - Women's Athletic Footwear was the bottom performing product category, bringing in around $106M(12% of revenue). Yet it sold more than 11K total units than Men's Apparel, which accrued around $17M more in revenue. Reasons behind this could include a lower price per unit cost, or markups on products to mirror competitor pricing.
+
+![Product Performance](Data/Visualizations/product_performance.png)
+
+## Sales Methods and Retailers
+ - West Gear leads with 27% of the total sales ($242.9M), making it the top performer in sales volume. Foot Locker is close behind with 24.5% ($220.1M), and Sports Direct follows with 20.3% ($182.5M).
+ - Amazon and Walmart contribute the least, with 8.6% ($77.7M) and 8.3% ($74.6M) of total sales, respectively.
+ - West Gear maintains the highest profit contribution, with 25.8% of the total profit ($85.7M), although its sales percentage (27%) is slightly higher than its profit percentage.
+ - Sports Direct has a higher profit percentage (22.4%) relative to its sales percentage (20.3%), indicating better profitability on each sale.
+ - West Gear has $136.5 in profit per unit sold ($85,667,968 / 625,262), making it the most efficient in terms of profitability per unit.
+ - West Gear also leads in units sold, contributing 25.2% of the total units (625K). Foot Locker follows closely with 24.4% (604K).
+
+![Retailer Performance](Data/Visualizations/retailer_performance.png)
+
+ - In-store sales account for 72.5% of the total sales ($652.2M), significantly outpacing online sales, which contribute 27.5% ($247.7M). Despite the larger portion of sales coming from in-store, online sales still represent a significant share of the overall sales at nearly 28%.
+ - In-store operations contribute 70.9% of total profits ($235.6M), reflecting its dominance in overall sales. Online sales contribute a higher proportion of profits (29.1% or $96.6M) compared to its share of total sales (27.5%). This indicates that online sales are more profitable on a per-dollar basis.
+ - In-store sales account for 62.1% of the total units sold (1.5M), while online sales make up 37.9% (939K). Despite a larger share in total sales, in-store sales have a lower share of total units sold, meaning in-store purchases may involve higher-ticket items on average.
+ - Online Sales show a higher profit-per-unit ratio. The profit per unit sold online is approximately $102.7 ($96,555,337 / 939,093 units), which is higher than the profit-per-unit for in-store sales, which is around $153.7 ($235,579,785 / 1,539,768 units). This suggests that while online sales are more profitable per unit sold, in-store sales bring in a higher total profit due to the volume of purchases.
+
+![Sale Method Performance](Data/Visualizations/sale_methods.png)
+
+## Recommendations
+   
+
+
+
 
 
    

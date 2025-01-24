@@ -11,7 +11,7 @@ Table of Contents
    - Product Effectiveness Metrics
    - Sales Methods and Retailers
  - Recommendations
- - Limitations and Assumptions
+ - Key Stakeholder Questions, Data Limitations and Assumptions
 ----
 ## Project Overview
 Adidas, the renowned German sportswear giant recognized worldwide by its iconic 'Three Stripes' logo, partners with various retailers across the United States to expand its reach and drive profitability. However, the onset of COVID-19 in 2020 drastically reshaped the retail landscape. Mandated lockdowns and social distancing measures led to significant disruptions, forcing many businesses to adapt to sudden changes—or face financial losses and potential closure.
@@ -31,11 +31,21 @@ Adidas Sale Dataset ERD
 ## Delving Into Insights
 ### Sales Trends and Growth Rates
 
- - Adidas generated nearly $900M in revenue from 01/01/2020 to 12/31/2021, with 9,648 recorded invoices.
+ - Adidas generated nearly $900M in revenue from 01/01/2020 to 12/31/2021, with 9,648 recorded invoices. 
  - Sales increased exponentially during 2021 by 294%, rising from $182.1M to $717.8M.
- - 2020 saw peak sales in April, correlating with the rise of online sales due to nationwide lockdown protocols. With more relaxed restrictions, 2021 saw peak sales in summer months(June-August) and December, indicating seasonality worth looking further into.
- - June 2021-August 2021 and December 2021 combined for $294.4M in revenue, making up an astounding 33% of total revenue generated. 
- - June 2020, November 2020 and December 2020 were the worst performing months, with sales growth and profit growth rates hovering around -50%.
+ - Profit increased from $63.4M in 2020 to $268.8M in 2021, a 324.1% increase. Profit growth outpaced revenue growth, suggesting improved efficiency or higher-margin products in 2021.
+   - #### 2020 Trends
+     - April ($24.6M) and August ($19.9M) were strong months for revenue, possibly due to events or promotional campaigns.
+     - June, November, and December showed significant drops in revenue and profit, likely driven by seasonal or external factors like COVID-19 restrictions.
+     - The sharp decline in June (-45.68% revenue, -60.67% profit, -66.34% units sold) stands out. This could be linked to supply chain disruptions or reduced demand.
+     - Reduced sales in November and December (-46.95% to -50.62% revenue, respectively) suggests missed opportunities during the holiday season.
+
+   - #### 2021 Trends
+     - With steady growth in revenue and profit from January to July, the recovery from the previous year is distinctly noticable
+     - July and August stand out as peak months in 2021, with revenue exceeding $78.3M and $72.3M, respectively.
+     - December 2021 saw a significant revenue increase ($77.8M, +40.91% YoY) compared to December 2020.
+     - November saw a slight dip in units sold despite an increase in revenue, suggesting higher average pricing or premium product sales.
+
    
 ![Sales Trends 2020](Data/Visualizations/2020_sales_trends.png)
 ![Sales Trends 2021](Data/Visualizations/2021_sales_trends.png)
@@ -82,7 +92,66 @@ Each state was classified into a region, with there being 5 regions in total. Be
 
 ![Sale Method Performance](Data/Visualizations/sale_methods.png)
 
-## Recommendations
+# Recommendations
+Maximizing High-Growth Regions and Categories
+ - **Southeast Focus**: Scale up marketing efforts and regional promotions to strengthen dominance.
+ - **West Optimization**: Introduce premium product lines or bundles to increase average order value and improve profitability.
+---
+Target Growth in Underperforming Regions
+ - **Southwest Strategy**: Adjust pricing to improve margins and run region-specific promotions to attract high-value customers.
+ - **Midwest Focus**: Highlight practical or essential products with targeted campaigns to align with customer demand.
+---
+Optimize Product Category Offerings
+- **Focus on Best Sellers**: Prioritize Men’s Street Footwear and Women’s Apparel for inventory and promotions due to their leading contributions.
+- **Grow Niche Categories**: Promote Athletic Footwear (both men’s and women’s) with fitness-focused campaigns and influencer partnerships.
+---
+Leverage Seasonality and Trends
+- **Seasonal Sales Optimization**:
+  - January, March, and December show peak performance historically. Align major campaigns with these times.
+  - Use slow months (e.g., June, October) for clearance sales to move inventory and prepare for peak periods.
+- **Athletic Footwear**: Leverage New Year fitness resolutions and back-to-school periods for targeted promotions in this category.
+---
+Capitalize on Channel Opportunities
+- **In-Store Dominance**:
+  - In-store sales account for over 72% of revenue. Invest in enhancing the in-store experience:
+  - Introduce exclusive in-store promotions.
+  - Train staff to upsell and cross-sell complementary products.
+- **Online Growth Potential**:
+  - Online sales contribute 27.5% of revenue but represent a growing share of units sold (37.9%).
+  - Improve the online experience with targeted ads, user-friendly design, and personalized recommendations.
+  - Offer exclusive online bundles to drive higher basket sizes.
+ ---
+ # Key Stakeholder Questions, Data Limitations and Assumptions
+ ## Questions for Stakeholder(s)
+  - Information about the `city` column
+    - What context does each city carry? Is it meant to show the most populous city in each state, or the city with the biggest market?
+  - Skew of Data
+    - There are missing invoice dates for some retailers. What could've caused this, and how do we go about the rest of the project?
+  - Primary Objectives
+    - What is the overall goal of this analysis? Is it to understand how well performance is during a global event? Market expansion?
+  - Metric Prioritization
+    - Are there any specific regions, products, or any other metric that require more attention?
+  - Defining Success
+    - How will success be measured for this project, and how will potential challenges and caveats be managed to ensure we stay on track?
+
+ ## Data Limitations and Assumptions
+ **Missing Data**
+   - **Description**: 36.3% of the data is currently missing, which represents a significant portion of the dataset. This missing data could lead to inaccurate representations of performance across different time periods, regions, and product categories.
+   - **Implications**: The gaps in the data may skew our understanding of sales trends, potentially affecting strategic decisions such as budgeting, forecasting, and market expansion. Incomplete data may also lead to biased insights, especially when comparing regions or products.
+
+ **Purpose of `city` column**
+   - **Description**: The city column in the dataset needs further clarification. It’s important to understand the intended use of this column to ensure we are leveraging it effectively.
+   - **Implications**: Without a clear understanding of how the city data should be interpreted, we may miss opportunities to identify regional market hotspots. Establishing the purpose of this column will guide how we can use it to target specific geographic regions for market expansion or tailored marketing campaigns.
+
+ **Incomplete Segmentation and Market Insights**
+   - **Description**: The missing data for certain regions, time periods, and product categories limits our ability to fully segment the market and understand regional preferences and trends.
+   - **Implications**: These gaps could prevent us from identifying high-performing areas or products that require more attention or investment. It also makes it harder to develop targeted marketing strategies or assess performance for underrepresented segments.
+
+ **Temporal Gaps in Data**
+   - **Description**: Certain time periods (e.g., specific months or quarters) may be missing from the dataset, particularly during high-sales times.
+   - **Implications**: Missing data for critical time periods (like holidays or seasonal peaks) could distort overall performance metrics. This might lead to inaccurate trend analysis and forecasting, which could affect future planning and decision-making.
+--- 
+ 
    
 
 

@@ -2,23 +2,23 @@
 
 Table of Contents
 
- - Project Overview
- - Executive Summary
- - Delving Into Insights
-   - Sales Trends and Growth Rates
-   - Regional Classification
-   - Regional Performance
-   - Product Effectiveness Metrics
-   - Sales Methods and Retailers
- - Recommendations
- - Key Stakeholder Questions, Data Limitations and Assumptions
+ - [Project Overview](#project-overview)
+ - [Executive Summary](#executive-summary)
+ - [Delving Into Insights](#delving-into-insights)
+   - [Sales Trends and Growth Rates](#sales-trends-and-growth-rates)
+   - [Regional Classification](#regional-classification)
+   - [Regional Performance](#regional-performance)
+   - [Product Effectiveness Metrics](#product-effectiveness-metrics)
+   - [Sales Methods and Retailers](#sales-methods-and-retailers)
+ - [Recommendations](#recommendations)
+ - [Key Stakeholder Questions, Data Limitations and Assumptions](#key-stakeholder-questions-data-limitations-and-assumptions)
 ----
 ## Project Overview
 Adidas, the renowned German sportswear giant recognized worldwide by its iconic 'Three Stripes' logo, partners with various retailers across the United States to expand its reach and drive profitability. However, the onset of COVID-19 in 2020 drastically reshaped the retail landscape. Mandated lockdowns and social distancing measures led to significant disruptions, forcing many businesses to adapt to sudden changes—or face financial losses and potential closure.
 
 This project aims to analyze the impact—both positive and negative—of the pandemic's first two years on Adidas' retail sales. By collaborating with the sales and marketing teams, I will partner with the head of sales and marketing to extract valuable insights and provide actionable recommendations to enhance marketing efforts and drive sales growth in a post-pandemic world.
 
-## Excecutive Summary
+## Executive Summary
 This analysis examines nearly 10,000 sales records from January 1, 2020, to December 31, 2021, revealing total revenue of approximately $900 million. Men's Street Footwear emerged as the leading product category, contributing 23.21% of total revenue. A significant shift toward e-commerce was observed, with online sales accounting for 50.7% of total revenue, surpassing in-store sales, which represented 49.3%.
 
 To capitalize on these findings, Adidas should prioritize investments in online platforms, such as websites and mobile apps, to better serve customers who cannot access brick-and-mortar stores. Additionally, focusing on high-performing categories like Men's Street Footwear while reevaluating underperforming products can drive sustainable growth and strengthen market presence in the post-pandemic era.
@@ -62,9 +62,11 @@ Each state was classified into a region, with there being 5 regions in total. Be
  - **Southeast**: Virginia, West Virginia, Tennessee, Kentucky, Arkansas, Louisiana, Mississippi, Alabama, Florida, North Carolina, South Carolina, Georgia
 
 ## Regional Performance
- - The Southeast region slightly edged out the West region as best performing, accounting for 29% of total revenue. West accounted for 28% of the total revenue.
- - Understandibly, the Southwest region was the least performing region, due to only having four states present. With such a small area, this region can be zeroed in on to allocate targeted marketing strategies towards areas of more dense populations, such as Texas and Arizona.
- - The Southeast region is the only one to cross the $1M profit threshold from 2020-2021. Florida is a key state in this region as the most populated, which can help drive sales if consumer engagement is high.
+ - The Southeast region leads with 29.06% of total revenue ($261.5M) and 31.07% of total profit ($103.2M). It also accounts for the largest share of units sold (729K units, 29.4%).
+ - The West follows closely in revenue ($250M, 27.78%) and unit sales (630K units, 25.4%). However, its profit percentage (25.2%) is significantly lower than its revenue share, suggesting room for margin optimization.
+ - The Northeast contributes 19.5% of revenue and 19.2% of profit, showing balanced performance.
+ - The Midwest has a smaller revenue share (13.3%) but punches slightly above its weight in profit (14.0%).
+ - The Southwest has the lowest revenue and profit contributions (10.3% revenue, 10.5% profit) but outperforms in units sold relative to its profit share (12.1% of units sold). This indicates potential underpricing or lower-margin products in this region.
 
 ![Regional Trends](Data/Visualizations/regional_trends.png)
 
@@ -151,8 +153,11 @@ Capitalize on Channel Opportunities
    - **Description**: Certain time periods (e.g., specific months or quarters) may be missing from the dataset, particularly during high-sales times.
    - **Implications**: Missing data for critical time periods (like holidays or seasonal peaks) could distort overall performance metrics. This might lead to inaccurate trend analysis and forecasting, which could affect future planning and decision-making.
 --- 
- 
-   
+- To view the workbook and pivot tables used, [click here](https://github.com/amontaywelch/Adidas-Pandemic-Sales-Analysis/blob/main/updated_adidas_sales.xlsx)
+- To view SQL queries for this project, [click here](https://github.com/amontaywelch/Adidas-Pandemic-Sales-Analysis/blob/main/sales_exploration.sql)
+- To view the analyses performed in Python, [click here](https://github.com/amontaywelch/Adidas-Pandemic-Sales-Analysis/blob/main/sales_analysis.ipynb)
+- Check out my LinkedIn [here](https://www.linkedin.com/in/amontay-welch) to view more projects and my journey into data!
+
 
 
 
